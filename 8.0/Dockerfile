@@ -14,6 +14,7 @@ RUN set -x; \
             python-support \
             python-dev \ 
             python-pip \
+			python-xlwt \
 			gcc \
 			libffi-dev \
 			libssl-dev \
