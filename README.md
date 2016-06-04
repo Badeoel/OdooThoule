@@ -1,6 +1,8 @@
-About this Repo
-======
+Odoo for Thoule
+=====
 
-This is the Git repo of the official Docker image for [Odoo](https://registry.hub.docker.com/_/odoo/). See the Hub page for the full readme on how to use the Docker image and for information regarding contributing and issues.
+This is an adjusted version of the official odoo dockerfile, that should fulfil the needs of the **Rollen- und Brettspielverein Thoule 1987 e.V.**
 
-The full readme is generated over in [docker-library/docs](https://github.com/docker-library/docs), specifically in [docker-library/docs/odoo](https://github.com/docker-library/docs/tree/master/odoo).
+Changes to the original version: 
+----- 
+* Installation of pysftp (to be able to use autobackup https://www.odoo.com/apps/modules/8.0/auto_backup/)
