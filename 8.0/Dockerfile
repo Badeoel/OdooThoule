@@ -9,15 +9,6 @@ RUN set -x; \
             curl \
             node-less \
             node-clean-css \
-            python-pyinotify \
-            python-renderpm \
-            python-support \
-            python-dev \ 
-            python-pip \
-			python-xlwt \
-			gcc \
-			libffi-dev \
-			libssl-dev \
 
 
 # Install Odoo
