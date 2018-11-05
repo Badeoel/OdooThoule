@@ -1,4 +1,4 @@
-FROM debian:stretch
+FROM debian:jesse
 MAINTAINER Odoo S.A. <info@odoo.com>
 
 # Install some deps, lessc and less-plugin-clean-css, and wkhtmltopdf
@@ -17,7 +17,6 @@ RUN set -x; \
 			python-xlwt \
 			gcc \
 			libffi-dev \
-			libssl-dev \
         && curl -o wkhtmltox.deb -SL http://nightly.odoo.com/extra/wkhtmltox-0.12.1.2_linux-jessie-amd64.deb \
         && echo '40e8b906de658a2221b15e4e8cd82565a47d7ee8 wkhtmltox.deb' | sha1sum -c - \
         && dpkg --force-depends -i wkhtmltox.deb \
