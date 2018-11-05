@@ -5,11 +5,7 @@ MAINTAINER Odoo S.A. <info@odoo.com>
 RUN set -x; \
         apt-get update \
         && apt-get install -y --no-install-recommends \
-            ca-certificates \
             curl \
-            node-less \
-            node-clean-css \
-
 
 # Install Odoo
 ENV ODOO_VERSION 8.0
